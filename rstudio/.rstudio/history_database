@@ -1,0 +1,84 @@
+1524483883756:### Run this first before Knitting the RMD ##############
+1524483883760:if(!require(devtools)){
+1524483883764:install.packages("devtools")
+1524483883767:library(devtools)
+1524483883770:}
+1524483884162:if(!require(flexdashboard)){
+1524483884169:install_github("gfilla/flexdashboard")
+1524483884856:library(flexdashboard)
+1524483884862:}
+1524483884922:########################################################
+1524483884928:#check for packages install if necessary
+1524483884934:packages <- function(x){
+1524483884941:x <- as.character(match.call()[[2]])
+1524483884947:if (!require(x,character.only=TRUE)){
+1524483884953:install.packages(pkgs=x,repos="http://cran.us.r-project.org")
+1524483884960:require(x,character.only=TRUE)
+1524483884966:}
+1524483884972:}
+1524483884997:packages(shiny)
+1524483885025:packages(leaflet)
+1524483885078:packages(rbokeh)
+1524483885929:packages(ggplot2)
+1524483885994:packages(knitr)
+1524483886014:packages(dplyr)
+1524483886046:packages(plotly)
+1524483886327:packages(xts)
+1524483886430:packages(dygraphs)
+1524483886473:packages(png)
+1524483886504:packages(RCurl)
+1524483886745:library(devtools)
+1524483886751:library(shiny)
+1524483886758:library(flexdashboard)
+1524483886764:library(leaflet)
+1524483886771:library(rbokeh)
+1524483886777:library(ggplot2)
+1524483886783:library(knitr)
+1524483886789:library(dplyr)
+1524483886795:library(plotly)
+1524483886801:library(xts)
+1524483886808:library(dygraphs)
+1524483886814:library(png)
+1524483886820:library(RCurl)
+1524484076728:### Run this first before Knitting the RMD ##############
+1524484076732:if(!require(devtools)){
+1524484076735:install.packages("devtools")
+1524484076738:library(devtools)
+1524484076741:}
+1524484076745:if(!require(flexdashboard)){
+1524484076748:install_github("gfilla/flexdashboard")
+1524484076751:library(flexdashboard)
+1524484076755:}
+1524484076759:########################################################
+1524484076765:#check for packages install if necessary
+1524484076769:packages <- function(x){
+1524484076772:x <- as.character(match.call()[[2]])
+1524484076775:if (!require(x,character.only=TRUE)){
+1524484076778:install.packages(pkgs=x,repos="http://cran.us.r-project.org")
+1524484076782:require(x,character.only=TRUE)
+1524484076785:}
+1524484076788:}
+1524484076792:packages(shiny)
+1524484076795:packages(leaflet)
+1524484076799:packages(rbokeh)
+1524484076802:packages(ggplot2)
+1524484076805:packages(knitr)
+1524484076809:packages(dplyr)
+1524484076812:packages(plotly)
+1524484076816:packages(xts)
+1524484076819:packages(dygraphs)
+1524484076822:packages(png)
+1524484076826:packages(RCurl)
+1524484076829:library(devtools)
+1524484076834:library(shiny)
+1524484076838:library(flexdashboard)
+1524484076841:library(leaflet)
+1524484076844:library(rbokeh)
+1524484076848:library(ggplot2)
+1524484076851:library(knitr)
+1524484076855:library(dplyr)
+1524484076858:library(plotly)
+1524484076861:library(xts)
+1524484076865:library(dygraphs)
+1524484076869:library(png)
+1524484076872:library(RCurl)

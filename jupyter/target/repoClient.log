@@ -40,3 +40,5 @@
 04/23/18/18 09:53:05.580|WARN ||||org.apache.toree.kernel.protocol.v5.handler.CommOpenHandler.org$apache$toree$kernel$protocol$v5$handler$CommOpenHandler$$handleCommOpen(CommOpenHandler.scala:71)|Received invalid target for Comm Open: jupyter.widget.version
 04/23/18/18 10:09:05.536|WARN ||||org.apache.toree.utils.MessageLogSupport$class.logMessage(MessageLogSupport.scala:36)|Parent header is null for message 2A5822AB49D3444F826663B763BF6B5C of type comm_open
 04/23/18/18 10:09:05.540|WARN ||||org.apache.toree.kernel.protocol.v5.handler.CommOpenHandler.org$apache$toree$kernel$protocol$v5$handler$CommOpenHandler$$handleCommOpen(CommOpenHandler.scala:71)|Received invalid target for Comm Open: jupyter.widget.version
+04/23/18/18 11:34:40.978|WARN ||||org.apache.spark.internal.Logging$class.logWarning(Logging.scala:66)|1 block locks were not released by TID = 21:
+[rdd_48_0]

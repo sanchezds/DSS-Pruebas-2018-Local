@@ -1,0 +1,34 @@
+{
+    "reprex::reprex_addin" : {
+        "binding" : "reprex_addin",
+        "description" : "Run `reprex::reprex()` to prepare a reproducible example for sharing.",
+        "interactive" : true,
+        "name" : "Render reprex",
+        "package" : "reprex",
+        "title" : ""
+    },
+    "tfruns::add_in_training_run" : {
+        "binding" : "add_in_training_run",
+        "description" : "Execute a training run with the current source document",
+        "interactive" : false,
+        "name" : "Training Run",
+        "package" : "tfruns",
+        "title" : ""
+    },
+    "tfruns::add_in_view_latest_run" : {
+        "binding" : "add_in_view_latest_run",
+        "description" : "View the most recent training run",
+        "interactive" : false,
+        "name" : "View Latest Run",
+        "package" : "tfruns",
+        "title" : ""
+    },
+    "tfruns::add_in_view_run_history" : {
+        "binding" : "add_in_view_run_history",
+        "description" : "View all training runs",
+        "interactive" : false,
+        "name" : "View Run History",
+        "package" : "tfruns",
+        "title" : ""
+    }
+}

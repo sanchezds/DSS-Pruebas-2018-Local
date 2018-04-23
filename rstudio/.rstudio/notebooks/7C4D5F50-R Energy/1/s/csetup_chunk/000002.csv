@@ -1,0 +1,129 @@
+"0","### Run this first before Knitting the RMD ##############
+if(!require(devtools)){
+    install.packages(""devtools"")
+    library(devtools)
+}
+"
+"2","Loading required package: devtools
+"
+"0","if(!require(flexdashboard)){"
+"0","    install_github(""gfilla/flexdashboard"")"
+"0","    library(flexdashboard)"
+"0","}"
+"2","Loading required package: flexdashboard
+"
+"0","########################################################"
+"0","#check for packages install if necessary"
+"0","packages <- function(x){"
+"0","  x <- as.character(match.call()[[2]])"
+"0","  if (!require(x,character.only=TRUE)){"
+"0","    install.packages(pkgs=x,repos=""http://cran.us.r-project.org"")"
+"0","    require(x,character.only=TRUE)"
+"0","  }"
+"0","}"
+"0","packages(shiny)"
+"2","Loading required package: shiny
+"
+"0","packages(leaflet)"
+"2","Loading required package: leaflet
+"
+"0","packages(rbokeh)"
+"2","Loading required package: rbokeh
+"
+"0","packages(ggplot2)"
+"2","Loading required package: ggplot2
+"
+"0","packages(knitr)"
+"2","Loading required package: knitr
+"
+"0","packages(dplyr)"
+"2","Loading required package: dplyr
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","packages(plotly)"
+"2","Loading required package: plotly
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","packages(xts)"
+"2","Loading required package: xts
+"
+"2","Loading required package: zoo
+"
+"2","
+Attaching package: ‘zoo’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+"
+"2","
+Attaching package: ‘xts’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    first, last
+
+"
+"2","The following object is masked from ‘package:leaflet’:
+
+    addLegend
+
+"
+"0","packages(dygraphs)"
+"2","Loading required package: dygraphs
+"
+"0","packages(png)"
+"2","Loading required package: png
+"
+"0","packages(RCurl)"
+"2","Loading required package: RCurl
+"
+"2","Loading required package: bitops
+"
+"0","library(devtools)"
+"0","library(shiny)"
+"0","library(flexdashboard)"
+"0","library(leaflet)"
+"0","library(rbokeh)"
+"0","library(ggplot2)"
+"0","library(knitr)"
+"0","library(dplyr)"
+"0","library(plotly)"
+"0","library(xts)"
+"0","library(dygraphs)"
+"0","library(png)"
+"0","library(RCurl)"
