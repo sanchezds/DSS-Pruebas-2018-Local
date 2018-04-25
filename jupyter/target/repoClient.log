@@ -42,3 +42,6 @@
 04/23/18/18 10:09:05.540|WARN ||||org.apache.toree.kernel.protocol.v5.handler.CommOpenHandler.org$apache$toree$kernel$protocol$v5$handler$CommOpenHandler$$handleCommOpen(CommOpenHandler.scala:71)|Received invalid target for Comm Open: jupyter.widget.version
 04/23/18/18 11:34:40.978|WARN ||||org.apache.spark.internal.Logging$class.logWarning(Logging.scala:66)|1 block locks were not released by TID = 21:
 [rdd_48_0]
+04/25/18/18 11:37:22.867|WARN ||||org.apache.spark.internal.Logging$class.logWarning(Logging.scala:66)|1 block locks were not released by TID = 43:
+[rdd_109_0]
+04/25/18/18 11:42:27.328|WARN ||||org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)|Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
