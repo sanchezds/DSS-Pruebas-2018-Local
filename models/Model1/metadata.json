@@ -1,0 +1,29 @@
+{
+  "author": "999",
+  "name": "Model1",
+  "features": [{
+    "name": "heating_gas",
+    "type": "double",
+    "sample": 0.366193236
+  }],
+  "params": {
+
+  },
+  "algorithmType": "Regression",
+  "isPublished": false,
+  "labelColumns": [{
+    "name": "domestic_gas",
+    "type": "double"
+  }],
+  "serialization": "spark",
+  "latestModelVersion": 1,
+  "id": "1528478589196",
+  "algorithm": "MLPipelineModel",
+  "filename": "",
+  "learningType": "Supervised",
+  "createdAt": 1528478589196,
+  "publishedModelVersion": -1,
+  "publishedBy": "",
+  "type": "wml-sparkml-model-1.1",
+  "runtime": "spark-2.0"
+}

@@ -1,0 +1,18 @@
+{
+  "docType" : "pipeline",
+  "version" : "1.0",
+  "inputDocument" : {
+    "runtime" : "scala-spark-2.0.2",
+    "pipeline" : [ {
+      "id" : "nodeADP",
+      "op" : "com.ibm.analytics.wml.features.ADPModel",
+      "inputDatasets" : [ ],
+      "outputDatasets" : [ "adpOutputDataFrame" ]
+    }, {
+      "id" : "nodeEstimator",
+      "op" : "org.apache.spark.ml.regression.GBTRegressionModel",
+      "inputDatasets" : [ "adpOutputDataFrame" ],
+      "outputDatasets" : [ "" ]
+    } ]
+  }
+}

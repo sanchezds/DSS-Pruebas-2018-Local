@@ -1,0 +1,1 @@
+{"uid":"ADP-Transform_65872318fdb9","featuresCol":"features","labelCol":"domestic_gas","labelEncodedCol":"label","isClassification":false,"inputCols":["heating_gas"]}

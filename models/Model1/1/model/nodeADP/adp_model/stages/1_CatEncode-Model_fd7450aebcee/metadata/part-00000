@@ -1,0 +1,1 @@
+{"class":"com.ibm.analytics.wml.features.adp.CategoryEncoderModel","timestamp":1528478592443,"sparkVersion":"2.0.2","uid":"CatEncode-Model_fd7450aebcee","paramMap":{"featuresCol":"features_catEncoded","inputCols":["heating_gas"],"numericCategoricalCols":[]}}

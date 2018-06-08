@@ -1,0 +1,1 @@
+{"class":"com.ibm.analytics.wml.features.ADPModel","timestamp":1528478589405,"sparkVersion":"2.0.2","uid":"ADP-Transform_65872318fdb9","paramMap":{"labelEncodedCol":"label","inputCols":["heating_gas"],"labelCol":"domestic_gas","featuresCol":"features"}}

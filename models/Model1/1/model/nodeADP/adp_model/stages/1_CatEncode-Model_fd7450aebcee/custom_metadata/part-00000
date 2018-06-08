@@ -1,0 +1,1 @@
+{"uid":"CatEncode-Model_fd7450aebcee","numericCatEncFieldName":"catEncode_numeric_CatEncodeTr_5fe940758582","inputCols":["heating_gas"],"featuresCol":"features_catEncoded"}

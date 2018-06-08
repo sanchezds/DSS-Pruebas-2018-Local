@@ -1,0 +1,14 @@
+{
+  "modifiedAt": 1528478589196,
+  "description": "",
+  "performanceMetrics": {
+    "rootMeanSquaredError": 0.8771387594953203,
+    "meanSquaredError": 0.7693724034089893,
+    "created_at": "2018-06-08T17:21:45.292Z",
+    "r2": -1.2965765135863005,
+    "explainedVariance": 0.36175747199220154,
+    "meanAbsoluteError": 0.3753594341492681
+  },
+  "modelVersion": 1,
+  "modifiedBy": "999"
+}
